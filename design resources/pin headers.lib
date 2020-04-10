@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 6pin_header
+#
+DEF 6pin_header P 0 40 Y Y 1 F N
+F0 "P" 0 350 60 H V C CNN
+F1 "6pin_header" 0 -400 60 H V C CNN
+F2 "" 150 -200 60 H I C CNN
+F3 "" 150 -200 60 H I C CNN
+DRAW
+S 150 300 -150 -350 0 1 0 N
+X ~ 1 150 250 200 R 50 50 1 1 I
+X ~ 2 150 150 200 R 50 50 1 1 I
+X ~ 3 150 50 200 R 50 50 1 1 I
+X ~ 4 150 -50 200 R 50 50 1 1 I
+X ~ 5 150 -150 200 R 50 50 1 1 I
+X ~ 6 150 -250 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
